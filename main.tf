@@ -16,7 +16,7 @@ resource "aws_instance" "UniZabbix" {
            delete_on_termination = true 
            encrypted             = false
            iops                  = 100
-           volume_size           = 8
+           volume_size           = 20
            volume_type           = "gp2"
         }
 } 
